@@ -1,3 +1,5 @@
+![Proffy Banner](./readme-images/capa.svg)
+
 # Proffy &#128218;
 
 *Esse foi um projeto desenvolvido durante a Next Level Week #02 (OmniStack).*
@@ -22,7 +24,9 @@ Proffy é uma plataforma que visa conectar professores e alunos interessados em 
 <!--* O backend é construído com Node.JS e SQLite.-->
 * O fontend é construído com o framework ReactJS.
 <!--* O mobile é construído com o framework React Native e a plataforma Expo.-->
+
 <!--
+
 ## Como rodar o projeto em minha máquina? &#129300;
 
 O primeiro passo é clonar o projeto, seja via terminal ou GitHub Desktop, ou mesmo baixando o arquivo compactado (.zip). Após isso, siga adiante.
