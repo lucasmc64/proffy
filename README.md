@@ -21,11 +21,9 @@ Proffy é uma plataforma que visa conectar professores e alunos interessados em 
 
 ## Alguns detalhes &#128220;
 
-<!--* O backend é construído com Node.JS e SQLite.-->
+* O backend é construído com Node.JS e SQLite.
 * O fontend é construído com o framework ReactJS.
-<!--* O mobile é construído com o framework React Native e a plataforma Expo.-->
-
-<!--
+* O mobile é construído com o framework React Native e a plataforma Expo.
 
 ## Como rodar o projeto em minha máquina? &#129300;
 
@@ -42,7 +40,7 @@ Com o Node.JS instalado, acesse cada um dos diretórios (**server**, **web** e *
 
 ### Rodando o Backend &#129405;
 
-Acesse o diretório **backend** via terminal e digite `npm run dev` ou `yarn dev` e uma mensagem parecida com a seguinte aparecerá para você:
+Acesse o diretório **backend** via terminal e digite `npm start` ou `yarn start` e uma mensagem parecida com a seguinte aparecerá para você:
 
 ![Resultado (backend) no terminal](./readme-images/backend.png)
 
@@ -67,7 +65,7 @@ Obs.: Caso não tenha sido esse o resultado verifique que os requisitos e os pas
 
 #### Passos &#129406;
 
-Acesse o diretório **mobile** via terminal e digite `npm start` ou `yarn start`. Caso você não tenha instalado o expo-cli até então, aparecerá uma mensagem no terminal te informando isso e perguntando se você deseja instalá-lo. Basta digitar `Y` e dar `ENTER`. 
+Acesse o diretório **mobile** via terminal e digite `npm start` ou `yarn start`. Caso você não tenha instalado o expo-cli até então, aparecerá uma mensagem no terminal te informando isso e perguntando se você deseja instalá-lo. Basta digitar `Y` e dar `ENTER`.
 
 ![Quer instalar o expo-cli?](./readme-images/expo-cli.png)
 
@@ -93,9 +91,7 @@ Se tudo ocorreu bem até aqui, parabéns! Mas temos mais algumas coisinhas para 
 O ideal seria, antes de você rodar o projeto no seu computador fazer os seguintes passos:
 
 1. Abrir a pasta */server/src/database/* e deletar o arquivo *database.sqlite*.
-2. Abrir a pasta */server/uploads/* e deletar todos os arquivos que não têm a extensão *.svg*.
-3. Abrir o terminal na pasta *server* e digitar o seguinte comando: `npm run knex:migrate` ou `yarn knex:migrate`.
-4. Ainda no terminal aberto na pasta *server* digite o seguinte comando: `npm run knex:seed` ou `yarn knex:seed`.
+2. Abrir o terminal na pasta *server* e digitar o seguinte comando: `npm run knex:migrate` ou `yarn knex:migrate`.
 
 #### Trocando para o seu IP &#128681;
 
@@ -109,10 +105,7 @@ Segue os passos para a substituição:
 
 ##### Backend &#129405;
 
-Acesse a pasta *server* e mude o IP nos seguintes arquivos:
-
-* */server/src/controllers/ItemsController.ts* - linha 11.
-* */server/src/controllers/PointsController.ts* - linha 15, linha 33.
+Não há nenhuma linha que precise ser alterada.
 
 ##### Frontend &#10024;
 
@@ -123,16 +116,6 @@ Não há nenhuma linha que precise ser alterada.
 Acesse a pasta *mobile* e mude o IP nos seguintes arquivos:
 
 * */mobile/src/services/api.ts* - linha 4.
-
-### Mudanças pessoais no projeto &#128517;
-
-Além do que foi criado eu tentei deixar o projeto o mais próximo possível do protótipo, o que incluiu:
-
-#### No Backend &#129405;
-
-#### No Frontend &#10024;
-
-#### No Mobile &#128241;
 
 ### Se tudo deu certo... &#127881;
 
