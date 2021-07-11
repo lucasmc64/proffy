@@ -1,4 +1,4 @@
-![Proffy](readme-images/capa.svg)
+![Proffy](readme-images/cover.png)
 
 # :books: Proffy
 
