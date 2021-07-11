@@ -1,123 +1,128 @@
-![Proffy Banner](./readme-images/capa.svg)
+![Proffy](readme-images/capa.svg)
 
-# Proffy &#128218;
+# :books: Proffy
 
-*Esse foi um projeto desenvolvido durante a Next Level Week #02 (OmniStack).*
+> This was a project developed during Next Level Week #02 (Track: OmniStack).
 
-## O que é a Next Level Week? &#128640;
+## :rocket: What is Next Level Week? 
 
-A [NLW](https://nextlevelweek.com/) é uma semana programada pela [Rocketseat](https://rocketseat.com.br/) na qual, através de aulas, lives, prática e com apoio da comunidade, vai te ajudar a dar o próximo passo na sua evolução como dev.
+The [NLW](https://nextlevelweek.com/) is a week programmed by [Rocketseat](https://rocketseat.com.br/) in which, through classes, lives, practice and with support from the community, it will help you take the next step in your evolution as a dev.
 
-## Qual a diferença entre OmniStack e Discovery? &#9968;
+## :mountain: What is the difference between OmniStack and Discovery?
 
-A NLW oferece duas frentes diferentes de acordo com conhecimento do aluno. 
+NLW offers two different fronts according to the student's knowledge:
 
-* O caminho “Discovery” é para aqueles que estão no começo do aprendizado em desenvolvimento;
-* O caminho “OmniStack” é para aqueles que estão dispostos a ir um pouco mais além e que tem mais conceitos de desenvolvimento fixados. 
+- The “Discovery” path is for those who are just beginning to learn in development;
+- The “OmniStack” path is for those who are willing to go a little further and who have more development concepts in place. 
 
-## Objetivo &#127919;
+## :dart: Goal 
 
-Proffy é uma plataforma que visa conectar professores e alunos interessados em aproveitar o EAD da melhor forma possível.
+Profffy is a platform that aims to connect teachers and students interested in taking advantage of EAD in the best possible way.
 
-## Alguns detalhes &#128220;
+## :scroll: Some details 
 
-* O backend é construído com Node.JS e SQLite.
-* O fontend é construído com o framework ReactJS.
-* O mobile é construído com o framework React Native e a plataforma Expo.
+- The back-end is built with Node.JS and SQLite.
+- The front-end is built with the ReactJS framework.
+- Mobile is built with the React Native framework and the Expo platform.
 
-## Como rodar o projeto em minha máquina? &#129300;
+## :thinking: How do I run the project on my machine?
 
-O primeiro passo é clonar o projeto, seja via terminal ou GitHub Desktop, ou mesmo baixando o arquivo compactado (.zip). Após isso, siga adiante.
+The first step is to clone the project, either via terminal or GitHub Desktop, or even by downloading the compressed file (.zip). After that, go ahead.
 
-### Requisitos &#128736;
+### :hammer_and_wrench: Requirements
 
-* Ter o [Node.JS](https://nodejs.org/) instalado no seu computador.
-* (Opcional) Ter o [Yarn](https://yarnpkg.com/) instalado no seu computador.
+- [Node.JS](https://nodejs.org/).
+- (Optional) [Yarn](https://yarnpkg.com/).
 
-### Instalando dependências &#128269;
+### :mag: Installing dependencies
 
-Com o Node.JS instalado, acesse cada um dos diretórios (**server**, **web** e **mobile**) via terminal e rode o comando `npm install`. Caso você prefira usar o Yarn, basta rodar o comando `yarn`.
+With Node.JS installed, access each of the directories (**server**, **web** and **mobile**) via terminal and run the `npm install` command. If you prefer to use Yarn, just run the command `yarn`.
 
-### Rodando o Backend &#129405;
+### :goggles: Running the Back-end
 
-Acesse o diretório **backend** via terminal e digite `npm start` ou `yarn start` e uma mensagem parecida com a seguinte aparecerá para você:
+Access the **server** directory via terminal, run the command `npm start` or `yarn start` and a message similar to the following will appear for you:
 
-![Resultado (backend) no terminal](./readme-images/backend.png)
+![Result of the command in the terminal](readme-images/backend.png)
 
-Obs.: Caso não tenha sido esse o resultado verifique que os requisitos e os passos anteriores tenham sido cumpridos.
+> If this was not the result, check that the requirements and previous steps have been met.
 
-### Rodando o Frontend &#10024;
+### :sparkles: Running the Front-end
 
-Acesse o diretório **frontend** via terminal e digite `npm start` ou `yarn start` e uma mensagem parecida com a seguinte aparecerá para você:
+Access the **web** directory via terminal, run `npm start` or `yarn start`. A message similar to the following will appear for you:
 
-![Resultado (frontend) do npm start no terminal](./readme-images/frontend.png)
+![Result of the command in the terminal](readme-images/frontend.png)
 
-Automaticamente, em seu navegador padrão, se abrirá uma aba para o link http://localhost:3000/ (onde o projeto estará rodando). Não se esqueça de deixar o backend redando em paralelo!
+Automatically, in your default browser, a tab will open for the link http://localhost:3000/ (where the project will be running).
 
-Obs.: Caso não tenha sido esse o resultado verifique que os requisitos e os passos anteriores tenham sido cumpridos.
+> If this was not the result, check that the requirements and previous steps have been met.
 
-### Rodando o Mobile &#128241;
+### :iphone: Running Mobile
 
-#### Requisitos &#128736;
+#### :hammer_and_wrench: Requirements
 
-* Aplicativo Expo instalado no seu smartphone ([Android](https://play.google.com/store/apps/details?id=host.exp.exponent) - [iOS](https://apps.apple.com/br/app/expo-client/id982107779));
-* [expo-cli](https://expo.io/learn) (Expo Command Line) instalado no seu computador.
+- Expo app: ([Android](https://play.google.com/store/apps/details?id=host.exp.exponent) - [iOS](https://apps.apple.com/br/app/expo-client/id982107779)).
+- [Expo Command Line](https://expo.io/learn).
 
-#### Passos &#129406;
+#### :hiking_boot: Steps
 
-Acesse o diretório **mobile** via terminal e digite `npm start` ou `yarn start`. Caso você não tenha instalado o expo-cli até então, aparecerá uma mensagem no terminal te informando isso e perguntando se você deseja instalá-lo. Basta digitar `Y` e dar `ENTER`.
+Access the **mobile** directory via terminal and run `npm start` or ` yarn start`.
 
-![Quer instalar o expo-cli?](./readme-images/expo-cli.png)
+Then, a message similar to the following will appear for you:
 
-Em seguida (e caso já tivesse o expo-cli instalado), uma mensagem parecida com a seguinte aparecerá para você:
+![Expo-cli terminal](readme-images/mobile.png)
 
-![Parte 1 - expo-cli terminal](./readme-images/mobile-1.png)
-![Parte 2 - expo-cli terminal](./readme-images/mobile-2.png)
+Automatically, in your default browser, a tab will open for the link http://localhost:9002/ with the following screen:
 
-Automaticamente, em seu navegador padrão, se abrirá uma aba para o link http://localhost:9002/ com a seguinte tela:
+![Expo on browser](readme-images/browser-expo.png)
 
-![Expo no navegador](./readme-images/navegador-expo.png)
+As you can see, there is a QRCode both on the terminal and on the website that opened (they are the same). Now, open the Expo app on your smartphone, scan the QRCode and wait until the project is synchronized.
 
-Como vocês puderam reparar, há um QRCode tanto no terminal, quanto no site que se abriu (ele são iguais). Agora, abra o aplicativo Expo em seu smartphone, escaneie o QRCode e aguarde até que o projeto seja sincronizado.
+> If this was not the result, check that the requirements and previous steps have been fulfilled.
 
-Obs.: Caso não tenha sido esse o resultado verifique que os requisitos e os passos anteriores tenham sido cumpridos.
 
-### Uns pequenos detalhes... &#129504;
+### :brain: A few small details...
 
-#### Banco de dados &#127922;
+#### :game_die: Database
 
-Se tudo ocorreu bem até aqui, parabéns! Mas temos mais algumas coisinhas para fazer. Como minha intenção nesse projeto foi meramente educativo, eu subi o projeto juntamente com meu banco de dados de testes. 
+We have a few more things to do. As my intention in this project was purely educational, I uploaded the project together with my test database.
 
-O ideal seria, antes de você rodar o projeto no seu computador fazer os seguintes passos:
+Ideally, before you run the project on your computer, do the following steps:
 
-1. Abrir a pasta */server/src/database/* e deletar o arquivo *database.sqlite*.
-2. Abrir o terminal na pasta *server* e digitar o seguinte comando: `npm run knex:migrate` ou `yarn knex:migrate`.
+1. Open the folder *server/src/database/* and delete the archive *database.sqlite*.
+2. Open the terminal in the folder *server* and run the following command: `npm run knex:migrate` or `yarn knex:migrate`.
 
-#### Trocando para o seu IP &#128681;
+#### :triangular_flag_on_post: Switching to your IP 
 
-Como estamos rodando o projeto localmente, as rotas são baseadas no IP atual do computador, por isso pode ser necessário trocá-los. Mas como eu sei o meu IP de localhost? Um meio é, quando você rodar o projeto *mobile*, quando abrir a janela do navegador, repare no endereço do lado esquerdo do site ou na barra do navegador:
+As we are running the project locally, the routes are based on the computer's current IP, so it may be necessary to change them. But how do I know my IP of localhost? One way is, when you run the *mobile* project, when you open the browser window, look at the address on the left side of the site or in the browser bar:
 
-![Endereço IP](./readme-images/endereco-ip.png)
+![IP Address](readme-images/ip.png)
 
-Acima, no retângulo azul, está o seu IP local atual.
+Above, in the blue rectangle, is your current local IP.
 
-Segue os passos para a substituição:
+Follow the steps for replacement:
 
-##### Backend &#129405;
+##### :goggles: Back-end
 
-Não há nenhuma linha que precise ser alterada.
+There are no lines that need to be changed.
 
-##### Frontend &#10024;
+##### :sparkles: Front-end
 
-Não há nenhuma linha que precise ser alterada.
+There are no lines that need to be changed.
 
-##### Mobile &#128241;
+##### :iphone: Mobile
 
-Acesse a pasta *mobile* e mude o IP nos seguintes arquivos:
+Access the *mobile* folder and change the IP in the following files:
 
-* */mobile/src/services/api.ts* - linha 4.
+- */mobile/src/services/api.ts* - line 4.
 
-### Se tudo deu certo... &#127881;
+## :tada: If everything went well...
 
-Agora você está com um banco de dados novinho em folha e com o **backend**, **frontend** e **mobile** rodando lindamente!
--->
+Now you are running the project beautifully!
+
+## :memo: License
+
+This project is under the MIT license. See the [LICENSE](LICENSE) for more information.
+
+---
+
+Made with :white_heart: by Lucas Coutinho :wave: [Get in touch!](https://www.linkedin.com/in/lucasmc64/)
